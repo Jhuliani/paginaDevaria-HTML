@@ -3,22 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="A Devaria é uma escola de programação.">
+    <meta name="keywords" content="devaria, programação">
+    <link rel="stylesheet" href="./public/css/devaria.css">
+    <link rel="stylesheet" href="./public/css/footer.css">
+    <link rel="stylesheet" href="./public/css/header.css">
+    <link rel="stylesheet" href="./public/css/index.css">
+    <title>Olá Mundo!</title>
 </head>
 <body>
     <header>
-        <h1>Olá Mundo! Essa é a minha primeira página da Web</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
+        <a href="index.html" class="link-logo">
+            <img src="./public/imagens/logo-devaria-02.471a6e86.svg" alt="logo devaria">
+        </a>
+        <nav class="menu">
+            <ul>                
                 <li><a href="Professores.html">Professores</a></li>
                 <li><a href="FaleConosco.html">Fale Conoso</a></li>
+                <li><a href="DevStars.html">DevStars</a></li>
             </ul>
         </nav>
     </header>
-
     <main>
-        <img src="./imagens/fotohome.png" width="500" alt="Devaria - Olá Mundo">
+        <h1 class="tittle">Olá Mundo! Essa é a minha primeira página da Web</h1>
+
+        <section class="cover-container">
+            <figure>
+                <img src="./public/imagens/fotohome.png" alt="Devaria - Olá Mundo">
+                <figcaption>Foto de capa Devaria</figcaption>
+            </figure>
+        </section>        
+        <section>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ZEqYpFQZHsw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section>
+            <h3>Para que os <abbr title="Developers">DEVs</abbr> fiquem sabendo, utilizamos <abbr title="Microsoft">MS</abbr> Azure </h3>
+            <blockquote cite="https://azure.microsoft.com/pt-br/">Imagine e compile a próxima geração de aplicativos com as tecnologias mais recentes anunciadas no Microsoft Ignite. Comece agora com o preço pago conforme o uso. Não há compromisso inicial, cancele a qualquer momento. Ou experimente o Azure gratuitamente por 30 dias.</blockquote>
+        </section>
     </main>
+    <footer>
+        <section>
+            <span>contato@devaria.com.br</span><br>
+            <span>conheça o nosso canal do YouTube!</span>
+        </section>
+    </footer>
 </body>
 </html>
